@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Resume from '../assets/RyanHarris_Resume.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -57,7 +58,7 @@ const Navbar = () => {
           </li>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#4E4E4F]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-              href="/"> Resume <BsFillPersonLinesFill size={30}/>
+              href={Resume} download='RyanHarris-Resume'>Resume<BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         </ul>
