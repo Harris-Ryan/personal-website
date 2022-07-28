@@ -4,24 +4,24 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Logo} alt="My Logo" style={{width: '130px'}}/>
+        <img src={Logo} alt="My Logo" style={{width: '110px', paddingTop: '10px'}}/>
       </div>
 
       {/* Nav Links */}
-      <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <ul className='hidden md:flex pt-[10px]'>
+        <li className='hover:text-[#9d0885] duration-300 '>Home</li>
+        <li className='hover:text-[#9d0885] duration-300'>About</li>
+        <li className='hover:text-[#9d0885] duration-300'>Technologies</li>
+        <li className='hover:text-[#9d0885] duration-300'>Projects</li>
+        <li className='hover:text-[#9d0885] duration-300'>Contact</li>
       </ul>
 
       {/* Hamburger */}
@@ -63,7 +63,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  )
+  );
 };
 
 export default Navbar;
