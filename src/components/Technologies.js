@@ -8,13 +8,13 @@ import Github from '../assets/github.png';
 
 const Experience = () => {
   return (
-    <div name='experience' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
+    <div name='experience' className='bg-[#0a192f] w-full h-screen'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-[#9d0885]'>Technologies</p>
-          <p className='py-4'>{'// Tehcnologies I\'m familiar with'}</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#9d0885] text-gray-200'>Technologies</p>
+          <p className='py-4 text-gray-300'>{'// Tehcnologies I\'m familiar with'}</p>
         </div>
-        <div className='w-full grid grid-cols-2 md:grid-cols-3 text-center py-7 gap-3'>
+        <div className='w-full grid grid-cols-2 md:grid-cols-3 text-center py-7 gap-3 text-gray-300'>
           <div className='shadow-lg shadow-[#040c16] bg-[#0a192f] hover:scale-110 duration-500 pt-3'>
             <img className='w-20 mx-auto' src={ReactLogo} alt="React Logo" />
             <p className='my-4'>React</p>
