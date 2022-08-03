@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// import Logo from '../assets/logo.png';
-import newCroppedLogo from '../assets/newCroppedLogo.png';
+import Logo from '../assets/logo.png';
 import Resume from '../assets/RyanHarris_Resume.pdf';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -14,17 +13,17 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div className=''>
+      <div>
         <a href="/">
           <Link to="home" smooth={true} duration={500}>
-            <img src={newCroppedLogo} alt="Ryan Harris website Logo" className='w-[180px] pr-[80px] pb-[10px]' />
+            <img src={Logo} alt="Ryan Harris website Logo" className='w-[170px] px-[25px] py-[50px]' />
           </Link>
         </a>
       </div>
       {/* style={{width: '90px', marginTop: '10px',  }} */}
 
       {/* Nav Links */}
-      <ul className='hidden md:flex pt-[10px]'>
+      <ul className='hidden md:flex pt-[10px] text-xl'>
         <li className='hover:text-[#9d0885] duration-300 '>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -89,26 +88,30 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-gray-300'
-              href="/"> LinkedIn <FaLinkedin size={30}/>
+      <div className='hidden md:flex fixed flex-col top-[55%] left-0'>
+        <ul className='social-links'>
+          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
+              href="/"> LinkedIn 
+                <FaLinkedin size={30} className=''/>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#6F3CB7]'>
-            <a className='flex justify-between items-center w-full text-gray-300'
-              href="/"> Github <FaGithub size={30}/>
+          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
+              href="/"> Github 
+                <FaGithub size={30}/>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#34B7CA]'>
-            <a className='flex justify-between items-center w-full text-gray-300'
-              href="/"> E-Mail <HiOutlineMail size={30}/>
+          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
+              href="/"> E-Mail 
+                <HiOutlineMail size={30}/>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#4E4E4F]'>
-            <a className='flex justify-between items-center w-full text-gray-300'
-              href={Resume} download='RyanHarris-Resume'>Resume<BsFillPersonLinesFill size={30}/>
+          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
+              href={Resume} download='RyanHarris-Resume'>Resume
+                <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         </ul>
