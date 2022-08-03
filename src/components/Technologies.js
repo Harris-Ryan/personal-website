@@ -11,7 +11,7 @@ const Experience = () => {
     <div name='technologies' className='bg-[#0a192f] w-full h-screen'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-[#9d0885] text-gray-200'>Technologies</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#9d0885] text-[#ffffff]'>Technologies</p>
           <p className='py-4 text-gray-300'>{'// Tehcnologies I\'m familiar with'}</p>
         </div>
         <div className='w-full grid grid-cols-2 md:grid-cols-3 text-center py-7 gap-3 text-gray-300'>
