@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Logo from '../assets/logo.png';
 import Resume from '../assets/RyanHarris_Resume.pdf';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { AiOutlineLinkedin } from 'react-icons/ai';
+import { RiGithubLine } from 'react-icons/ri';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsPerson } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -88,30 +90,40 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className='hidden md:flex fixed flex-col top-[55%] left-0'>
+      <div className='hidden md:flex fixed flex-col top-[45%] left-1'>
         <ul className='social-links'>
-          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
-            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
-              href="/"> LinkedIn 
-                <FaLinkedin size={30} className=''/>
+          <li className='w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-name'
+              href='https://www.linkedin.com/in/e-ryan-harris' 
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Linkedin Profile'> 
+              <AiOutlineLinkedin size={40}/>
+                <span className='pr-[5px] fade-text'>LinkedIn</span>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
-            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
-              href="/"> Github 
-                <FaGithub size={30}/>
+          <li className='w-[150px] h-[50px] mb-[5px] flex justify-between social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-name'
+              href='https://github.com/Harris-Ryan' 
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Github Profile'> 
+              <RiGithubLine size={40}/>
+                <span className='pr-[20px] fade-text'>Github</span>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
-            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
-              href="/"> E-Mail 
-                <HiOutlineMail size={30}/>
+          <li className='w-[150px] h-[50px] mb-[5px] flex justify-between social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-name'
+              href="mailto: eryanharris1@gmail.com">
+              <HiOutlineMail size={40}/>
+              <span className='pr-[21px] fade-text'>E-Mail</span>
             </a>
           </li>
-          <li className='w-[150px] h-[40px] mb-[5px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 social-link'>
-            <a className='flex justify-between items-center w-full text-gray-300 social-icon'
-              href={Resume} download='RyanHarris-Resume'>Resume
-                <BsFillPersonLinesFill size={30}/>
+          <li className='w-[150px] h-[50px] mb-[5px] flex justify-between social-link'>
+            <a className='flex justify-between items-center w-full text-gray-300 social-name'
+              href={Resume} download='RyanHarris-Resume'>
+              <BsPerson size={40}/>
+              <span className='pr-[10px] fade-text'>Resume</span>
             </a>
           </li>
         </ul>
