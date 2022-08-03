@@ -1,7 +1,7 @@
 import React from "react";
 // import images for each project 
 import WebsiteScreen from '../assets/websiteScreen.png'
-import WorkImg from '../assets/workImg.jpeg';
+
 
 const Projects = () => {
   return (
@@ -27,7 +27,7 @@ const Projects = () => {
               <span className='text-3xl font-bold text-white tracking-wide'>
                 Portfolio Website
               </span>
-              <p className='text-xs tracking-wide font-semibold flex justify-center my-3 text-white'>React &#x2022; Tailwind</p>
+              <p className='text-xs tracking-wide font-semibold flex justify-center my-3 text-white'>ReactJS &#x2022; Tailwind &#x2022; AWS</p>
               <div className='pt-8 text-center'>
                 {/* <a href="/">
                   <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300'>Demo</button>
@@ -39,12 +39,11 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* SECOND PROJECT PREVIEW IMG */}
-          <div 
+
+          {/* <div 
             style={{backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500'>
 
-            {/* CONTAINER HOVER EFFECT */}
             <div className='opacity-0 group-hover:opacity-100 duration-[350ms]'>
               <span className='text-3xl font-bold text-white tracking-wide'>
                 Resume Creator
@@ -61,12 +60,11 @@ const Projects = () => {
             </div>
           </div>
           
-          {/* THIRD PROJECT PREVIEW IMG */}
+
           <div 
             style={{backgroundImage: `url(${WebsiteScreen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500'>
 
-            {/* CONTAINER HOVER EFFECT */}
             <div className='opacity-0 group-hover:opacity-100 duration-[350ms]'>
               <span className='text-3xl font-bold text-white tracking-wide'>
                 "Project Name"
@@ -83,12 +81,11 @@ const Projects = () => {
             </div>
           </div>
           
-          {/* FOURTH PROJECT PREVIEW IMG */}
+
           <div 
             style={{backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500'>
 
-            {/* CONTAINER HOVER EFFECT */}
             <div className='opacity-0 group-hover:opacity-100 duration-[350ms]'>
               <span className='text-3xl font-bold text-white tracking-wide'>
                 "Project Name"
@@ -105,12 +102,11 @@ const Projects = () => {
             </div>
           </div>
           
-          {/* FIFTH PROJECT PREVIEW IMG */}
+
           <div 
             style={{backgroundImage: `url(${WebsiteScreen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500'>
 
-            {/* CONTAINER HOVER EFFECT */}
             <div className='opacity-0 group-hover:opacity-100 duration-[350ms]'>
               <span className='text-3xl font-bold text-white tracking-wide'>
                 "Project Name"
@@ -127,12 +123,11 @@ const Projects = () => {
             </div>
           </div>
           
-          {/* SIXTH PROJECT PREVIEW IMG */}
+
           <div 
             style={{backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500'>
 
-            {/* CONTAINER HOVER EFFECT */}
             <div className='opacity-0 group-hover:opacity-100 duration-[350ms]'>
               <span className='text-3xl font-bold text-white tracking-wide'>
                 "Project Name"
@@ -147,7 +142,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
