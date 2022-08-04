@@ -42,12 +42,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='hover:text-[#9d0885] duration-300 '>
-          <Link to="projects" smooth={true} duration={500} offset={50}>
+          <Link to="projects" smooth={true} duration={500} offset={170}>
             Projects
           </Link>
         </li>
         <li className='hover:text-[#9d0885] duration-300 '>
-          <Link to="contact" smooth={true} duration={500} offset={-20}>
+          <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -114,16 +114,16 @@ const Navbar = () => {
           </li>
           <li className='w-[150px] h-[50px] mb-[5px] flex justify-between social-link'>
             <a className='flex justify-between items-center w-full text-gray-300 social-name'
-              href="mailto: eryanharris1@gmail.com">
-              <HiOutlineMail size={40}/>
-              <span className='pr-[21px] fade-text'>E-Mail</span>
+              href={Resume} download='RyanHarris-Resume'>
+              <BsPerson size={40}/>
+              <span className='pr-[10px] fade-text'>Resume</span>
             </a>
           </li>
           <li className='w-[150px] h-[50px] mb-[5px] flex justify-between social-link'>
             <a className='flex justify-between items-center w-full text-gray-300 social-name'
-              href={Resume} download='RyanHarris-Resume'>
-              <BsPerson size={40}/>
-              <span className='pr-[10px] fade-text'>Resume</span>
+              href="mailto: eryanharris1@gmail.com">
+              <HiOutlineMail size={40}/>
+              <span className='pr-[21px] fade-text'>E-Mail</span>
             </a>
           </li>
         </ul>

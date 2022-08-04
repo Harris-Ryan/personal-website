@@ -1,12 +1,1 @@
-This is a portfolio website used to display my personal projects, personal information as well as a means to reach me. 
-/
-/
-/
-/
-/
-/
-Technologies Used:
-  -React
-  -SASS
-  
-    
+This is my personal portfolio website used to display my projects, personal information, information about me as well as a means to reach me. It is built using React, TailwindCSS for styling and hosted on AWS. 
