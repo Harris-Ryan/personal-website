@@ -51,6 +51,8 @@ const Projects = () => {
           </div>
 
 
+
+          {/* div to hide empty project containers */}
           <div className='hidden'>
             {/* SECOND PROJECT PREVIEW IMG */}
             <div
@@ -220,6 +222,8 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>

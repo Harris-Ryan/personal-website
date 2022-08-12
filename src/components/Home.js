@@ -27,14 +27,14 @@ const Home = () => {
           I specialize in creating exceptional user experiences through modern and well thoughtout design.
         </p>
         <div>
-          <button className='text-white border-2 px-8 py-3 my-5 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300 group'>
-            <Link to="projects" smooth={true} duration={500} offset={170}>
-              View Work
-            </Link>
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3'/>
-            </span>
-          </button>
+          <Link to="projects" smooth={true} duration={500} offset={170}>
+            <button className='text-white border-2 px-8 py-3 my-5 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300 group'>
+                View Work
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3'/>
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
