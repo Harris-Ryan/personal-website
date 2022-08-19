@@ -12,17 +12,17 @@ const About = () => {
             </p>
           </div>
         </div>
-          <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-8 px-5 text-[#bdbdbd]'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi, I'm Ryan - nice to meet you! Please take a look around and message if you have any questions!</p>
+          <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-8 px-5 text-[#bdbdbd] divide-x-[4px] divide-[#9d0885]'>
+            <div className='text-right text-4xl font-bold'>
+              Hi, I'm Ryan - nice to meet you! Please take a look around and message if you have any questions!
             </div>
-            <div>
-              <p className='pt-[3px] text-4xl font-normal text-[#ffffff]'>I am passionate about building, maintaining and learning about software to build solutions that help improve the lives of those around me.
-              </p>
+            <div className='text-4xl font-normal text-[#ffffff] pl-[12px]'>
+              I am passionate about building, maintaining and learning about software to build solutions that help improve the lives of those around me.
             </div>
           </div>
       </div>
     </div>
   );
 };
+
 export default About;

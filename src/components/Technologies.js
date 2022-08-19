@@ -4,7 +4,7 @@ import MySQL from '../assets/mysql.png';
 import ReactLogo from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
 import Node from '../assets/node.png';
-import Github from '../assets/github.png';
+import AWS from '../assets/aws.png';
 
 
 const Experience = () => {
@@ -37,8 +37,8 @@ const Experience = () => {
             <p className='my-4 text-xl pt-[7px]'>Node</p>
           </div>
           <div className='shadow-lg shadow-[#040c16] bg-[#0a192f] hover:scale-110 duration-500 pt-3'>
-            <img className='w-[110px] mx-auto' src={Github} alt="Github Logo" />
-            <p className='my-4 text-xl pt-[8px]'>Git & Github</p>
+            <img className='w-[110px] mx-auto' src={AWS} alt="Github Logo" />
+            <p className='my-4 text-xl pt-[8px]'>Amazon Web Services</p>
           </div>
         </div>
       </div>

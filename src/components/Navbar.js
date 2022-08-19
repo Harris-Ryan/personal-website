@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='hover:text-[#9d0885] duration-300 '>
-          <Link to="projects" smooth={true} duration={500} offset={170}>
+          <Link to="projects" smooth={true} duration={500} offset={200}>
             Projects
           </Link>
         </li>
