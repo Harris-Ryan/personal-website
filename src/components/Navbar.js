@@ -7,6 +7,7 @@ import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPerson } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { email } from "../secretsConfig";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -109,7 +110,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden md:flex fixed flex-col top-[45%] left-1">
+      <div className="hidden lg:flex fixed flex-col top-[45%] left-1">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
@@ -148,7 +149,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between social-link">
             <a
               className="flex justify-between items-center w-full text-gray-300 social-name"
-              href="mailto: eryanharris1@gmail.com"
+              href={`mailto:${email}`}
             >
               <HiOutlineMail size={40} />
               <span className="pr-[21px] fade-text">E-Mail</span>

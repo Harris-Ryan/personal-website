@@ -20,8 +20,8 @@ const Home = () => {
             hideCursorAfterText="true"
           />
         </h1>
-        <h2 className="pt-[5px] text-4xl sm:text-7xl font-medium text-[#a5a8b1]">
-          and I'd love to be your next developer!
+        <h2 className="pt-[5px] text-4xl sm:text-7xl font-medium text-[#c3c4c9]">
+          - and I'd love to be your next developer!
         </h2>
         <p className="text-[#d4d5d8] py-4 max-w-[700px] text-2xl">
           I specialize in creating exceptional user experiences through modern,

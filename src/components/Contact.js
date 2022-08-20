@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { BiSend } from "react-icons/bi/";
+import { email } from "../secretsConfig";
 
 const Contact = () => {
   const form = useRef();
@@ -38,12 +39,12 @@ const Contact = () => {
           <p className="text-gray-300 mt-[50px] text-2xl text-center px-[100px]">
             I'm always open to new opportunities (and friends!!) - Feel free to
             contact me with the form below if you have any questions or if you
-            just want to say hi! You can also send me an email directly at{" "}
+            just want to say hi! You can also send me an email directly{" "}
             <a
               className="font-medium underline underline-offset text-[#c831af] hover:text-gray-200 duration-200"
-              href="mailto: eryanharris1@gmail.com"
+              href={`mailto:${email}`}
             >
-              eryanharris1@gmail.com
+              here
             </a>
           </p>
         </div>
