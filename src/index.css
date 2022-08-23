@@ -46,7 +46,6 @@
 
 .social-links .social-link .social-name::before {
   transition: .5s;
-  z-index: -1;
 }
 
 .social-links .social-link .social-name:hover::before {

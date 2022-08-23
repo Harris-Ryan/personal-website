@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="Ryan Harris website Logo"
-              className="w-[170px] px-[25px] py-[50px]"
+              className="w-[140px] px-[25px] py-[50px]"
             />
           </Link>
         </a>
@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* style={{width: '90px', marginTop: '10px',  }} */}
 
       {/* Nav Links */}
-      <ul className="hidden md:flex text-lg">
+      <ul className="hidden md:flex">
         <li className="hover:text-[#9d0885] duration-300 ">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -47,7 +47,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#9d0885] duration-300 ">
-          <Link to="projects" smooth={true} duration={500} offset={170}>
+          <Link to="projects" smooth={true} duration={500} offset={120}>
             Projects
           </Link>
         </li>
@@ -71,17 +71,17 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li>
+        <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             to="technologies"
@@ -91,7 +91,7 @@ const Navbar = () => {
             Technologies
           </Link>
         </li>
-        <li>
+        <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             to="projects"
@@ -102,7 +102,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li>
+        <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden lg:flex fixed flex-col top-[65%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[50%] left-0">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
@@ -152,7 +152,7 @@ const Navbar = () => {
               href={`mailto:${email}`}
             >
               <HiOutlineMail size={40} />
-              <span className="pr-[21px] fade-text">E-Mail</span>
+              <span className="pr-[23px] fade-text">E-Mail</span>
             </a>
           </li>
         </ul>

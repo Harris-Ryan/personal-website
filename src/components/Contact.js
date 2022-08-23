@@ -29,14 +29,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 pt-[200px] pb-[100px]"
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
-      <div className="flex flex-col max-w-[1200px] w-full">
-        <div className="pb-8 text-center">
-          <p className="text-7xl font-bold inline border-b-4 border-[#9d0885] text-[#ffffff]">
+      <div className="flex flex-col max-w-[600px] w-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-[#9d0885] text-[#ffffff]">
             Contact
           </p>
-          <p className="text-gray-300 mt-[50px] text-2xl text-center px-[100px]">
+          <p className="text-gray-300 py-4">
             I'm always open to new opportunities (and friends!!) - Feel free to
             contact me with the form below if you have any questions or if you
             just want to say hi! You can also send me an email directly{" "}
@@ -48,14 +48,10 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <form
-          className="flex flex-col px-[160px]"
-          ref={form}
-          onSubmit={sendEmail}
-        >
-          <label className="py-3">
+        <form ref={form} onSubmit={sendEmail}>
+          <label>
             <input
-              className="w-full py-3 pl-2 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
+              className="w-full py-3 pl-2 mb-3 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
               name="senderName"
               type="text"
               placeholder="Name"
@@ -63,7 +59,7 @@ const Contact = () => {
           </label>
           <label className="py-3">
             <input
-              className="w-full py-3 pl-2 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
+              className="w-full py-3 pl-2 mb-3 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
               name="senderEmail"
               type="email"
               placeholder="Email"
@@ -71,7 +67,7 @@ const Contact = () => {
           </label>
           <label className="py-3">
             <textarea
-              className="w-full py-3 pl-2 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
+              className="w-full py-3 pl-2 mb-3 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"
               name="message"
               cols="30"
               rows="7"

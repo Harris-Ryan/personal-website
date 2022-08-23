@@ -3,39 +3,35 @@ import WebsiteScreen from "../assets/websiteScreen.png";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full sm:h-screen bg-[#0a192f]">
-      <div className="max-w-[1400px] mx-auto flex flex-col justify-center w-full h-full pt-[130px]">
+    <div name="projects" className="w-full md:h-screen bg-[#0a192f]">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-7xl font-bold inline border-b-4 text-[#ffffff] border-[#9d0885]">
+          <p className="text-4xl font-bold inline border-b-4 text-[#ffffff] border-[#9d0885]">
             Projects
           </p>
-          <p className="py-8 text-gray-300 text-3xl">
+          <p className="py-6 text-gray-300">
             {"// Check out some of my projects"}
           </p>
         </div>
 
         {/* GRID CONTAINER */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* FIRST PROJECT PREVIEW IMG */}
+          {/* FIRST PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteScreen})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500"
           >
-            {/* CONTAINER HOVER EFFECT */}
+            {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-5xl font-bold text-white tracking-wide">
+              <span className="text-3xl font-bold text-white tracking-wide">
                 Portfolio Website
               </span>
-              <p className="text-xl tracking-wide font-semibold flex justify-center py-3 text-white">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-12 text-white">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
-                {/* <a 
-                  href='/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <button className='text-center rounded-lg px-8 py-3 m-3 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300'>
+                {/* <a href="/" target="_blank" rel="noreferrer">
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300">
                     Demo
                   </button>
                 </a> */}
@@ -44,7 +40,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-lg px-8 py-3 m-3 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300">
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300">
                     Code
                   </button>
                 </a>
