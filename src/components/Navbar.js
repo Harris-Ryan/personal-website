@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* style={{width: '90px', marginTop: '10px',  }} */}
 
       {/* Nav Links */}
-      <ul className="hidden md:flex pt-[10px] text-xl">
+      <ul className="hidden md:flex text-lg">
         <li className="hover:text-[#9d0885] duration-300 ">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -71,17 +71,17 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="hover:text-[#9d0885] duration-300 ">
+        <li>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:text-[#9d0885] duration-300 ">
+        <li>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="hover:text-[#9d0885] duration-300 ">
+        <li>
           <Link
             onClick={handleClick}
             to="technologies"
@@ -91,7 +91,7 @@ const Navbar = () => {
             Technologies
           </Link>
         </li>
-        <li className="hover:text-[#9d0885] duration-300 ">
+        <li>
           <Link
             onClick={handleClick}
             to="projects"
@@ -102,7 +102,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="hover:text-[#9d0885] duration-300 ">
+        <li>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden lg:flex fixed flex-col top-[45%] left-1">
+      <div className="hidden lg:flex fixed flex-col top-[65%] left-0">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
