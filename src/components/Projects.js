@@ -6,7 +6,7 @@ const Projects = () => {
     <div name="projects" className="w-full md:h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-[#ffffff] border-[#9d0885]">
+          <p className="text-4xl font-bold inline border-b-4 text-white border-[#9d0885]">
             Projects
           </p>
           <p className="py-6 text-gray-300">

@@ -33,7 +33,7 @@ const Contact = () => {
     >
       <div className="flex flex-col max-w-[600px] w-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#9d0885] text-[#ffffff]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#9d0885] text-white">
             Contact
           </p>
           <p className="text-gray-300 py-4">
