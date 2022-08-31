@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
 import Resume from "../assets/RyanHarris_Resume.pdf";
+import Logo from "../assets/logo.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { RiGithubLine } from "react-icons/ri";
@@ -15,22 +15,15 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <a href="/">
-          <Link to="home" smooth={true} duration={500}>
-            <img
-              src={Logo}
-              alt="Ryan Harris website Logo"
-              className="w-[140px] px-[25px] py-[50px]"
-            />
-          </Link>
-        </a>
-      </div>
-      {/* style={{width: '90px', marginTop: '10px',  }} */}
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300">
+      <a href="/">
+        <Link to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="Personal Logo" className="w-16 h-auto" />
+        </Link>
+      </a>
 
       {/* Nav Links */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex md:text-md ">
         <li className="hover:text-[#9d0885] duration-300 ">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -47,7 +40,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#9d0885] duration-300 ">
-          <Link to="projects" smooth={true} duration={500} offset={120}>
+          <Link to="projects" smooth={true} duration={500} offset={-150}>
             Projects
           </Link>
         </li>
@@ -97,7 +90,7 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
-            offset={50}
+            offset={-50}
           >
             Projects
           </Link>
@@ -110,7 +103,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden lg:flex fixed flex-col top-[50%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[50%] -left-1">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
