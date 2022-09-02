@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-20"
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 sm:p-8 lg:p-28"
     >
       <div className="flex flex-col justify-center items-center md:max-w-4xl">
         <div className="pb-8">
@@ -48,7 +48,7 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <form ref={form} onSubmit={sendEmail} className="max-w-[700px]">
+        <form ref={form} onSubmit={sendEmail}>
           <label>
             <input
               className="w-full py-2 pl-2 mb-3 rounded-md border-[2px] focus:outline-none focus:border-[#24b7f1]"

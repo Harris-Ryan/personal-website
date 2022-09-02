@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-8 xl:px-12 bg-[#0a192f] text-gray-300">
       <a href="/">
         <Link to="home" smooth={true} duration={500}>
           <img src={Logo} alt="Personal Logo" className="w-16 h-auto" />
@@ -23,7 +23,7 @@ const Navbar = () => {
       </a>
 
       {/* Nav Links */}
-      <ul className="hidden md:flex md:text-md ">
+      <ul className="hidden md:flex md:text-md xl:text-lg">
         <li className="hover:text-[#9d0885] duration-300 ">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -53,7 +53,7 @@ const Navbar = () => {
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars className="w-8 h-6" /> : <FaTimes />}
       </div>
 
       {/* Mobile Nav Links */}
