@@ -33,7 +33,7 @@ const Contact = () => {
     >
       <div className="flex flex-col justify-center items-center md:max-w-4xl">
         <div className="pb-8">
-          <p className="text-4xl md:text-6xl font-bold inline border-b-4 border-[#9d0885] text-white">
+          <p className="text-4xl md:text-6xl font-bold inline text-white underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
             Contact
           </p>
           <p className="text-gray-300 py-4 md:text-lg">
