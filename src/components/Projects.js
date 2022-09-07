@@ -4,7 +4,7 @@ import WebsiteScreen from "../assets/websiteScreen.png";
 const Projects = () => {
   return (
     <div name="projects" className="w-full h-full bg-[#0a192f]">
-      <div className="md:max-w-4xl mx-auto flex flex-col justify-center px-4">
+      <div className="sm:max-w-[90vw] lg:max-w-[80vw] mx-auto flex flex-col justify-center p-4 2xl:p-0">
         <div className="pb-2">
           <p className="text-4xl md:text-6xl font-bold inline text-white underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
             Projects
@@ -15,11 +15,11 @@ const Projects = () => {
         </div>
 
         {/* GRID CONTAINER */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center">
           {/* FIRST PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteScreen})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">

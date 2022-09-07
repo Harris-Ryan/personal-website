@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      screens: {
+        "3xl": "1600px",
+      },
       colors: {
         "oxford-blue": "#0a192f",
         "dark-magenta": "#9d0885",
@@ -19,5 +22,6 @@ module.exports = {
       },
     },
   },
+  variants: {},
   plugins: [],
 };

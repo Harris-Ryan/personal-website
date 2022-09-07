@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-8 xl:px-12 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-8 xl:px-12 bg-[#0a192f] text-gray-300 z-20">
       <a href="/">
         <Link to="home" smooth={true} duration={500}>
           <img
@@ -68,17 +68,17 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl z-0">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl z-0">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl z-0">
           <Link
             onClick={handleClick}
             to="technologies"
@@ -88,7 +88,7 @@ const Navbar = () => {
             Technologies
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl z-0">
           <Link
             onClick={handleClick}
             to="projects"
@@ -99,7 +99,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl z-0">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -107,7 +107,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden lg:flex fixed flex-col top-[50%] -left-1">
+      <div className="hidden lg:flex fixed flex-col top-[60%] -left-1">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
