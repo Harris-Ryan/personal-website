@@ -18,7 +18,11 @@ const Navbar = () => {
     <div className="fixed w-full h-[60px] flex justify-between items-center px-8 xl:px-12 bg-[#0a192f] text-gray-300">
       <a href="/">
         <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} alt="Personal Logo" className="w-16 h-auto" />
+          <img
+            src={Logo}
+            alt="Personal Logo"
+            className="w-16 h-auto 2xl:ml-4"
+          />
         </Link>
       </a>
 

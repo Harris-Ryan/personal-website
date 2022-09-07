@@ -6,7 +6,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Home = () => {
   return (
     <div name="home" className="w-screen h-screen bg-[#0a192f]">
-      <div className="md:max-w-4xl xl:max-w-6xl mx-auto px-8 sm:px-24 flex flex-col justify-center h-full">
+      <div className="max-w-fit mx-auto px-8 sm:px-24 flex flex-col justify-center h-full">
         <p className="text-[#9d0885] text-xl md:text-2xl xl:text-3xl sm:mb-1">
           Hi! My name is
         </p>

@@ -9,7 +9,7 @@ import AWS from "../assets/aws.png";
 const Technologies = () => {
   return (
     <div name="technologies" className="w-full h-screen bg-[#0a192f]">
-      <div className="md:max-w-4xl xl:max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="md:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto p-4 2xl:p-0 flex flex-col justify-center w-full h-full">
         <p className="text-white text-4xl md:text-6xl xl:text-7xl font-bold inline underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
           Technologies
         </p>
