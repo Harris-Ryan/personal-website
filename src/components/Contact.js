@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { BiSend } from "react-icons/bi/";
 import { email } from "../secretsConfig";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
@@ -17,11 +18,35 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text); //Put the success alert here
+          console.log(result.text);
+          Swal.fire({
+            title: "Woohoo!",
+            iconColor: "white",
+            icon: "success",
+            text: "Message Sent Successfully!",
+            showConfirmButton: false,
+            toast: true,
+            position: "top-right",
+            timer: 2300,
+            timerProgressBar: true,
+            background: "#a5dc86",
+          });
           e.target.reset();
         },
         (error) => {
-          console.log(error.text); //Put the fail alert here
+          console.log(error.text);
+          Swal.fire({
+            title: "Whoops!",
+            iconColor: "white",
+            icon: "error",
+            text: "Looks like something went wrong",
+            showConfirmButton: false,
+            toast: true,
+            position: "top-right",
+            timer: 2300,
+            timerProgressBar: true,
+            background: "#f27474",
+          });
         }
       );
   };
