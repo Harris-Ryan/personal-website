@@ -16,15 +16,11 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-8 xl:px-12 bg-[#0a192f] text-gray-300 z-20">
-      <a href="/">
+      <span className="hover:cursor-pointer ml-4">
         <Link to="home" smooth={true} duration={500}>
-          <img
-            src={Logo}
-            alt="Personal Logo"
-            className="w-16 h-auto 2xl:ml-4"
-          />
+          <img src={Logo} alt="Personal Logo" className="w-16 h-auto py-1" />
         </Link>
-      </a>
+      </span>
 
       {/* Nav Links */}
       <ul className="hidden md:flex md:text-md xl:text-lg">
@@ -44,7 +40,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#9d0885] duration-300 ">
-          <Link to="projects" smooth={true} duration={500} offset={-150}>
+          <Link to="projects" smooth={true} duration={500} offset={-180}>
             Projects
           </Link>
         </li>
