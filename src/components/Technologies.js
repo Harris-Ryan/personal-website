@@ -19,11 +19,11 @@ const Technologies = () => {
 
         <div className="flex justify-center">
           <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 text-gray-300">
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img className="w-24 mx-auto" src={ReactLogo} alt="React Logo" />
               <p className="my-4 xl:text-xl">React</p>
             </div>
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img
                 className="w-24 mx-auto"
                 src={TypeScript}
@@ -31,11 +31,11 @@ const Technologies = () => {
               />
               <p className="my-4 xl:text-xl">TypeScript</p>
             </div>
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img className="w-36 mx-auto" src={MySQL} alt="MySQL Logo" />
               <p className="my-4 xl:text-xl">MySQL</p>
             </div>
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img
                 className="w-24 mx-auto"
                 src={Tailwind}
@@ -43,11 +43,11 @@ const Technologies = () => {
               />
               <p className="my-4 xl:text-xl">Tailwind</p>
             </div>
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img className="w-24 mx-auto" src={Node} alt="NodeJS Logo" />
               <p className="my-4 xl:text-xl">Node</p>
             </div>
-            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f]">
               <img className="w-24 mx-auto" src={AWS} alt="Github Logo" />
               <p className="my-4 xl:text-xl">Amazon Web Services</p>
             </div>
