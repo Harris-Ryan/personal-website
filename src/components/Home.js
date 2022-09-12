@@ -29,7 +29,7 @@ const Home = () => {
           functional design - all while using quick and efficent best-practices
           for software development and engineering.
         </p>
-        <Link to="projects" smooth={true} duration={500} offset={-150}>
+        <Link to="projects" smooth={true} duration={500} offset={-100}>
           <button className="text-white border-2 px-3 py-2 p-4 my-2 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300 group">
             View Work
             <span className="group-hover:-translate-y-1 group-hover:translate-x-2 group-hover:rotate-90 duration-300">

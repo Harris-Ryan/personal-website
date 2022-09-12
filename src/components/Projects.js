@@ -4,7 +4,7 @@ import WebsiteCode from "../assets/websiteScreen.png";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full h-full bg-[#0a192f]">
+    <div name="projects" className="w-full h-screen bg-[#0a192f]">
       <div className="sm:max-w-[90vw] lg:max-w-[80vw] mx-auto flex flex-col justify-center p-4 2xl:p-0">
         <div className="pb-2">
           <p className="text-4xl md:text-6xl font-bold inline text-white underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
@@ -48,10 +48,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* SECOND PROJECT PREVIEW */}
+          {/* SECOND PROJECT */}
           <div
             style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
@@ -82,7 +82,7 @@ const Projects = () => {
           {/* THIRD PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
@@ -113,7 +113,7 @@ const Projects = () => {
           {/* FOURTH PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
@@ -144,7 +144,7 @@ const Projects = () => {
           {/* FIFTH PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
@@ -175,7 +175,7 @@ const Projects = () => {
           {/* SIXTH PROJECT PREVIEW */}
           <div
             style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
