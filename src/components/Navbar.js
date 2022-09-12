@@ -103,7 +103,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Links */}
-      <div className="hidden lg:flex fixed flex-col top-[60%] -left-1">
+      <div className="hidden lg:flex fixed flex-col top-[60%] left-1">
         <ul className="social-links">
           <li className="w-[150px] h-[50px] mb-[5px] flex justify-between items-center social-link">
             <a
