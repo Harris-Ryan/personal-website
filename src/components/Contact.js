@@ -56,14 +56,14 @@ const Contact = () => {
       name="contact"
       className="w-full h-full bg-[#0a192f] flex justify-center items-center p-4 sm:p-8"
     >
-      <div className="flex justify-center items-center flex-col sm:max-w-[70vw] xl:max-w-[55vw] pb-[100px]">
+      <div className="flex justify-center items-center flex-col sm:max-w-[70vw] xl:max-w-[55vw]">
         <div className="pb-8">
           <p className="text-4xl md:text-6xl font-bold inline text-white underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
             Contact
           </p>
           <p className="text-gray-300 py-4 md:text-lg">
-            I'm always open to new opportunities (and friends!!) - Feel free to
-            contact me with the form below if you have any questions or if you
+            I'm always open to new opportunities (and friends!). Feel free to
+            contact me using the form below if you have any questions or if you
             just want to say hi! You can also send me an email directly{" "}
             <a
               className="font-medium underline underline-offset text-[#c831af] hover:text-gray-200 duration-200"
