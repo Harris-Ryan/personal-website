@@ -1,6 +1,4 @@
-![Website logo](https://github.com/Harris-Ryan/personal-website/blob/main/src/assets/logo.svg?raw=true)
-
-# The first full, working version of my portfolio website - eryanharris.com
+## The first full, working version of my portfolio website - eryanharris.com
 
 ![Website homepage](https://github.com/Harris-Ryan/personal-website/blob/main/src/assets/portfolio-website.png?raw=true)
 
