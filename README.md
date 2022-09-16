@@ -48,7 +48,7 @@ $ npm start
 
 3. Use the `npm install` command in the project's directory to install all necessary dependencies.
 
-4. Now run `npm start` in the terminal to run the project locally.
+4. Now use the `npm start` command in the terminal to run the project locally.
 
 ---
 
