@@ -36,9 +36,15 @@ $ npm start
 
 ---
 
-## Alternatively
+## Alternate Method
 
-You can download the project directly and extract it via the zip file. Open that file in your editor and use the `npm install` command in the projects directory. Now you can run `npm start` to run it locally.
+1. Download the project directly and extract it via the zip file on your machine.
+
+2. Open the project in your editor and navigate to the directory in your terminal.
+
+3. Use the `npm install` command in the project's directory to download all necessary dependencies.
+
+4. Now run `npm start` in the terminal to run the project locally.
 
 ---
 
