@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { BiSend } from "react-icons/bi/";
-import { email } from "../secretsConfig";
+import { email } from "../email";
 import Swal from "sweetalert2";
 
 const Contact = () => {

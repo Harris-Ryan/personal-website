@@ -7,7 +7,7 @@ import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPerson } from "react-icons/bs";
 import { Link } from "react-scroll";
-import { email } from "../secretsConfig";
+import { email } from "../email";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
