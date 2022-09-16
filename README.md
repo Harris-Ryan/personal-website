@@ -1,6 +1,10 @@
 ## My portfolio website - V1 - [eryanharris.com](https://eryanharris.com)
 
+---
+
 ![Website homepage](https://github.com/Harris-Ryan/personal-website/blob/main/src/assets/portfolio-website.png?raw=true)
+
+---
 
 ## About this repo
 
@@ -50,6 +54,8 @@ $ npm start
 
 ---
 
-**All done!!** - Now you should be able to play around with and alter the project locally via your clone. If you have any questions or run into any issues, feel free to let me know and I'll help as much as I can!
+## All Done!!
 
-THANK YOU!!
+Now you should be able to play around with and alter the project locally via your clone. If you have any questions or run into any issues, feel free to let me know and I'll help as much as I can!
+
+**THANK YOU!!**
