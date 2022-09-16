@@ -34,7 +34,9 @@ This will install all require dependencies for the project
 $ npm start
 ```
 
-# Alternatively
+---
+
+### Alternatively
 
 You can download the project directly and extract it via the zip file. Open that file in your editor and use the `npm install` command in the projects directory. Now you can run `npm start` to run it locally.
 
