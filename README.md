@@ -36,9 +36,11 @@ $ npm start
 
 ---
 
-### Alternatively
+## Alternatively
 
 You can download the project directly and extract it via the zip file. Open that file in your editor and use the `npm install` command in the projects directory. Now you can run `npm start` to run it locally.
+
+---
 
 **All done!!** - Now you should be able to play around with and alter the project locally via your clone. If you have any questions or run into any issues, feel free to let me know and I'll help as much as I can!
 
