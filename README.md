@@ -10,6 +10,8 @@ It's built using React, TailwindCSS for styling and hosted on AWS with Amplify.
 
 This project was built by myself from the ground up, and was an incredible learning experience that really pushed and improved my skills as a developer. If you have any questions, please feel free to contact me using any of the methods listed on the site!
 
+---
+
 ## Cloning the repo
 
 Anyone is more than welcome to clone this repo and take a look at how it works, just use the following steps!
