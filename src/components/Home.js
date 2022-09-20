@@ -26,8 +26,8 @@ const Home = () => {
         <p className="text-[#c3c4c9] py-4 xl:max-w-[50vw] text-lg xl:text-xl mt-2">
           I'm a full-stack developer & engineer who specializes in creating
           exceptional user experiences through modern, well-thought-out and
-          functional design - all while using quick and efficent best-practices
-          for software development and engineering.
+          functional design - all while using industry standard best-practices
+          for development.
         </p>
         <Link to="projects" smooth={true} duration={500} offset={-100}>
           <button className="text-white border-2 px-3 py-2 p-4 my-2 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300 group">

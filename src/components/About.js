@@ -7,7 +7,7 @@ const About = () => {
         <div className="grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-5xl lg:text-6xl font-bold inline underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4 text-white">
-              About
+              About Me
             </p>
           </div>
         </div>
@@ -17,11 +17,11 @@ const About = () => {
             questions!
           </p>
           <p className="text-md lg:text-lg lg:font-medium 2xl:text-xl pl-4">
-            I am passionate about building, maintaining and learning about
-            software to develop solutions and products that help improve the
-            lives of those around me. I am constantly looking to learn and
-            improve my skills as a developer to be as effective and impactful as
-            possible.
+            I'm passionate about building, maintaining and continuing to learn
+            about the software field to develop solutions and products that help
+            improve the lives of those around me. I'm constantly looking to
+            learn and improve my skills as a developer to be as effective and
+            impactful as possible.
           </p>
         </div>
       </div>

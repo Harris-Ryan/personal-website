@@ -56,7 +56,7 @@ const Contact = () => {
       name="contact"
       className="w-full h-full bg-[#0a192f] flex justify-center items-center p-4 sm:p-8"
     >
-      <div className="flex justify-center items-center flex-col sm:max-w-[70vw] xl:max-w-[55vw]">
+      <div className="flex justify-center items-center flex-col sm:max-w-[70vw] xl:max-w-[55vw] pb-32">
         <div className="pb-8">
           <p className="text-4xl md:text-6xl font-bold inline text-white underline decoration-[3px] md:decoration-[4px] decoration-[#9d0885] underline-offset-4">
             Contact
@@ -101,7 +101,7 @@ const Contact = () => {
           </label>
           <div className="flex items-center justify-center">
             <button
-              className="text-white border-2 px-7 py-4 my-5 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300"
+              className="text-white border-2 px-3 py-2 p-4 my-2 rounded-md flex items-center hover:bg-[#9d0885] hover:border-[#9d0885] duration-300"
               type="submit"
             >
               Send Message

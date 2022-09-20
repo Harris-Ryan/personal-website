@@ -11,7 +11,7 @@ const Projects = () => {
             Projects
           </p>
           <p className="py-6 text-gray-300 md:text-xl">
-            {"// Check out some of my projects"}
+            {"// Some of my projects"}
           </p>
         </div>
 
@@ -24,10 +24,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
                 Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
@@ -55,10 +55,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
-                Second Project
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
+                Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
@@ -86,10 +86,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
-                Third Project
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
+                Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
@@ -117,10 +117,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
-                Fourth Project
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
+                Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
@@ -148,10 +148,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
-                Fifth Project
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
+                Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
@@ -179,10 +179,10 @@ const Projects = () => {
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
-              <span className="text-3xl font-bold text-white tracking-wide 3xl:text-4xl 3xl:tracking-normal">
-                Sixth Project
+              <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
+                Personal Website
               </span>
-              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white 3xl:text-xl">
+              <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
                 ReactJS &#x2022; Tailwind &#x2022; AWS
               </p>
               <div className="pt-8 text-center">
