@@ -133,7 +133,9 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300 social-name"
               href={Resume}
-              download="RyanHarris-Resume"
+              rel="noreferrer"
+              target="_blank"
+              download="RyanHarris_Resume.pdf"
             >
               <BsPerson size={40} />
               <span className="pr-[10px] fade-text">Resume</span>
