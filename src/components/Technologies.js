@@ -14,7 +14,7 @@ const Technologies = () => {
           Technologies
         </p>
         <p className="pt-4 pb-8 text-gray-300 md:text-xl xl:text-2xl">
-          {"// Tehcnologies I specialize in"}
+          {"// Technologies I specialize in"}
         </p>
 
         <div className="flex justify-center">
