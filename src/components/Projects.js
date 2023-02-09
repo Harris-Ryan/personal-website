@@ -1,5 +1,6 @@
 import React from "react";
 import Website from "../assets/portfolio-website.png";
+import IpTracker from "../assets/ip-tracker-homepage.png"
 import WebsiteCode from "../assets/websiteScreen.png";
 
 const Projects = () => {
@@ -50,25 +51,29 @@ const Projects = () => {
           </div>
           {/* SECOND PROJECT */}
           <div
-            style={{ backgroundImage: `url(${WebsiteCode})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0 hidden"
+            style={{ backgroundImage: `url(${IpTracker})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 z-0"
           >
             {/* PROJECT HOVER EFFECT */}
             <div className="opacity-0 group-hover:opacity-100 duration-[350ms]">
               <span className="text-3xl font-bold text-white tracking-wide md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 3xl:tracking-normal">
-                Personal Website
+                IP Address Tracker
               </span>
               <p className="text-lg tracking-wide font-medium flex justify-center pt-4 text-white md:text-sm lg:text-md xl:text-lg 3xl:text-xl">
-                ReactJS &#x2022; Tailwind &#x2022; AWS
+                React &#x2022; TypeScript &#x2022; Tailwind
               </p>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noreferrer">
+                <a 
+									href="https://harris-ryan.github.io/ip-tracker/" 
+									target="_blank" 
+									rel="noreferrer"
+								>
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-[#403b3f] font-bold text-lg hover:bg-[#403b3f] hover:text-white duration-300">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Harris-Ryan/portfolio-website"
+                  href="https://github.com/Harris-Ryan/IP-tracker"
                   target="_blank"
                   rel="noreferrer"
                 >
