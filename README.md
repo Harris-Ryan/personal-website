@@ -1,4 +1,4 @@
-## My portfolio website - V1 - [Website Link](https://www.eryanharris.com)
+## Portfolio Website (V1) - [Website Link](https://www.eryanharris.com)
 
 ![Website homepage](https://github.com/Harris-Ryan/personal-website/blob/main/src/assets/portfolio-website.png?raw=true)
 
