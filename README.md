@@ -21,7 +21,7 @@ Anyone is more than welcome to clone this repo and take a look at how it works, 
 1. Open your terminal and enter the following command to clone the repository on your local machine:
 
 ```console
-$ git clone https://github.com/Harris-Ryan/personal-website
+$ git clone https://github.com/Harris-Ryan/personal-website.git
 ```
 
 2. Use the `cd` command to navigate into the new directory where the project is located and enter the command:
